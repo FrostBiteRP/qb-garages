@@ -235,6 +235,18 @@ Garages = {
         vehicle = 'car',              --car, air, sea
         job = "cartel"
     },
+    ["vagos"] = {
+        label = "Vagos",
+        takeVehicle = vector3(964.3, -1824.24, 31.1),
+        spawnPoint = vector4(969.24, -1824.55, 31.1, 354.06),
+        putVehicle = vector3(964.3, -1824.24, 31.1),
+        showBlip = false,
+        blipName = "Vagos",
+        blipNumber = 357,
+        type = 'job',                --public, job, gang, depot
+        vehicle = 'car',              --car, air, sea
+        job = "vagos"
+    },
     ["police"] = {
         label = "Police",
         takeVehicle = vector3(454.6, -1017.4, 28.4),
